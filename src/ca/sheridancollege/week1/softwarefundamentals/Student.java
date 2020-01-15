@@ -14,6 +14,15 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
+    private int Phone;
+
+    public void setPhone(int Phone) {
+        this.Phone = Phone;
+    }
+
+    public int getPhone() {
+        return Phone;
+    }
 
     public String getEmail() {
         return email;
